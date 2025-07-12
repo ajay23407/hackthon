@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
-  return (
-    <div>
-      <h1 className=' flex text-white justify-center items-center font-extrabold text-2xl bg-violet-800 h-14 '>The Quiz Marathon</h1>
-    </div>
-  )
-}
+  function changeText() {
+    let x = 5;
+    document.getElementById("result").innerText = `square of ${x} is ${x * x}`;
+  }
 
-export default Header
+  return (
+    <>
+      <div id="result">I am from dev</div>
+      <button onClick={changeText}>Click me</button>
+    </>
+  );
+};
+
+export default Header;
