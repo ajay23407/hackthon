@@ -8,7 +8,9 @@ const Header = () => {
 
   return (
     <>
-      <div id="result">I am from dev</div>
+    <div>
+      <h1>Hii!</h1>
+    </div>
       <button onClick={changeText}>Click me</button>
     </>
   );
