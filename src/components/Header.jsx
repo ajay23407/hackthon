@@ -10,12 +10,15 @@ const Header = () => {
     <>
     <div>
       <h1>Hii!</h1>
+      <h2>BUri Buri Zimon</h2>
     </div>
     <div>
       <h2>Hello World</h2>
     </div>
       <button onClick={changeText}>Click me</button>
     </>
+
+
   );
 };
 
