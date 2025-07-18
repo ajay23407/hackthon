@@ -12,7 +12,7 @@ const Header = () => {
       <h1>Hii!</h1>
     </div>
     <div>
-      <h2>Hello World</h2>
+      <h2>Ajay hero</h2>
     </div>
       <button onClick={changeText}>Click me</button>
     </>
