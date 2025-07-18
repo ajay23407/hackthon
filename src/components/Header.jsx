@@ -11,9 +11,14 @@ const Header = () => {
     <div>
       <h1>Hii!</h1>
     </div>
+    <div>
+      <h2>hello</h2>
+    </div>
       <button onClick={changeText}>Click me</button>
     </>
   );
 };
 
 export default Header;
+
+
